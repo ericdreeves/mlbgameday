@@ -53,8 +53,8 @@ type Review struct {
 // LineScoreInning represents runs per inning as part of the line score.
 type LineScoreInning struct {
 	Inning   int `xml:"inning,attr"`
-	HomeRuns int `xml:"home_inning_runs,attr"`
-	AwayRuns int `xml:"away_inning_runs,attr"`
+	HomeRuns int `xml:"home_inning_runs,attr,omitempty"`
+	AwayRuns int `xml:"away_inning_runs,attr,omitempty"`
 }
 
 // Players represents a list of team rosters and umpires.
