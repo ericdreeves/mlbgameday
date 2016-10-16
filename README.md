@@ -123,6 +123,7 @@ for _, inn := range lineScore.Innings {
 ```
 
 ## Documentation
+The godoc reference can be found [here](https://godoc.org/github.com/ericdreeves/mlbgameday).
 
 The MLB Gameday API data can be viewed at <http://gd2.mlb.com/components/game/mlb/>.
 
