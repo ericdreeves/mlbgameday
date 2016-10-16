@@ -1,5 +1,9 @@
 # mlbgameday
 
+[![Build Status](https://travis-ci.org/ericdreeves/mlbgameday.svg?branch=master)](https://travis-ci.org/ericdreeves/mlbgameday)
+[![GoDoc](https://godoc.org/github.com/ericdreeves/mlbgameday?status.svg)](https://godoc.org/github.com/ericdreeves/mlbgameday)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ericdreeves/mlbgameday)](https://goreportcard.com/report/github.com/ericdreeves/mlbgameday)
+
 mlbgameday is a Go client for the Major League Baseball (MLB) GameDay API.
 
 The MLB Gameday API provides data for Major League Baseball games in several
