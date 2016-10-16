@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Copyright 2016 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt-->
+<game atBat="500871" deck="543257" hole="435559" ind="F">
+<inning num="1" away_team="kca" home_team="min" next="Y">
+  <top>
+	<atbat num="1" b="0" s="1" o="0" start_tfs="181028" start_tfs_zulu="2016-09-05T18:10:28Z" batter="502481" stand="L" b_height="5-10" pitcher="621244" p_throws="R" des="Jarrod Dyson singles on a line drive to right fielder Logan Schafer.  " des_es="Jarrod Dyson pega sencillo con l&#xED;nea a jardinero derecho Logan Schafer.  " event_num="6" event="Single" event_es="Sencillo" play_guid="8558589d-f798-4683-8d77-aa3611a7fd60" home_team_runs="0" away_team_runs="0">
+	  <pitch des="Called Strike" des_es="Strike cantado" id="3" type="S" tfs="181036" tfs_zulu="2016-09-05T18:10:36Z" x="151.27" y="180.81" event_num="3" sv_id="160905_131101" play_guid="d81dbd93-d1d7-4ba9-81e3-24cd3c6437f0" start_speed="92.5" end_speed="85.4" sz_top="3.47" sz_bot="1.62" pfx_x="-0.98" pfx_z="9.59" px="-0.899" pz="2.147" x0="-1.76" y0="50.0" z0="5.492" vx0="2.649" vy0="-135.539" vz0="-6.307" ax="-1.831" ay="28.902" az="-14.218" break_y="23.8" break_angle="4.7" break_length="3.4" pitch_type="FF" type_confidence=".914" zone="13" nasty="72" spin_dir="185.821" spin_rate="1931.941" cc="" mt=""/>
+	</atbat>
+  </top>
+</inning>
+</game>

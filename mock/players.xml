@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Copyright 2016 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt-->
+<game venue="Target Field" date="September 5, 2016">
+<team type="away" id="KC" name="Kansas City Royals">
+  <player id="521692" first="Salvador" last="Perez" num="13" boxname="Perez, S" rl="R" bats="R" position="C" current_position="C" status="A" team_abbrev="KC" team_id="118" parent_team_abbrev="KC" parent_team_id="118" bat_order="5" game_position="C" avg=".254" hr="20" rbi="58"/>
+  <player id="572044" first="Brooks" last="Pounders" num="62" boxname="Pounders" rl="R" bats="R" position="P" current_position="P" status="A" team_abbrev="KC" team_id="118" parent_team_abbrev="KC" parent_team_id="118" avg=".000" hr="0" rbi="0" wins="1" losses="1" era="10.29"/>
+  <coach position="manager" first="Ned" last="Yost" id="124681" num="3"/>
+</team>
+<team type="home" id="MIN" name="Minnesota Twins">
+  <player id="542953" first="Buddy" last="Boshers" num="62" boxname="Boshers" rl="L" bats="L" position="P" status="A" team_abbrev="MIN" team_id="142" parent_team_abbrev="MIN" parent_team_id="142" avg=".000" hr="0" rbi="0" wins="2" losses="0" era="5.33"/>
+  <player id="621439" first="Byron" last="Buxton" num="25" boxname="Buxton" rl="R" bats="R" position="CF" current_position="CF" status="A" team_abbrev="MIN" team_id="142" parent_team_abbrev="MIN" parent_team_id="142" bat_order="9" game_position="CF" avg=".221" hr="4" rbi="25"/>
+  <coach position="manager" first="Paul" last="Molitor" id="119236" num="4"/>
+</team>
+<umpires>
+  <umpire position="home" name="Ted Barrett" id="427019" first="Ted" last="Barrett"/>
+</umpires>
+</game>
