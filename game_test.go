@@ -266,7 +266,7 @@ func TestCurrentAtBat(t *testing.T) {
 	}
 
 	want := &AtBat{
-		88, 500871, 518397, 1, 1, 3, "Grounded Into DP", 5, 11,
+		AtBatSummary{88, 500871, 518397, 1, 1, 3, "Grounded Into DP", 5, 11},
 		[]Pitch{
 			{
 				"Ball",
@@ -326,7 +326,7 @@ func TestCurrentAtBatTopInning(t *testing.T) {
 	}
 
 	want := &AtBat{
-		1, 502481, 621244, 0, 1, 0, "Single", 0, 0,
+		AtBatSummary{1, 502481, 621244, 0, 1, 0, "Single", 0, 0},
 		[]Pitch{
 			{
 				"Called Strike",

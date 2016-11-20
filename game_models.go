@@ -118,18 +118,23 @@ type AtBatInning struct {
 	Bottom []AtBat `xml:"bottom>atbat"`
 }
 
-// AtBat represents a single at-bat.
+// AtBatSummary represents a single at-bat.
+type AtBatSummary struct {
+	Number       int    `xml:"num,attr"`
+	Batter       int    `xml:"batter,attr"`
+	Pitcher      int    `xml:"pitcher,attr"`
+	Balls        int    `xml:"b,attr"`
+	Strikes      int    `xml:"s,attr"`
+	Outs         int    `xml:"o,attr"`
+	Event        string `xml:"event,attr"`
+	HomeTeamRuns int    `xml:"home_team_runs,attr"`
+	AwayTeamRuns int    `xml:"away_team_runs,attr"`
+}
+
+// AtBat represents a single at-bat, including all pitches.
 type AtBat struct {
-	Number       int     `xml:"num,attr"`
-	Batter       int     `xml:"batter,attr"`
-	Pitcher      int     `xml:"pitcher,attr"`
-	Balls        int     `xml:"b,attr"`
-	Strikes      int     `xml:"s,attr"`
-	Outs         int     `xml:"o,attr"`
-	Event        string  `xml:"event,attr"`
-	HomeTeamRuns int     `xml:"home_team_runs,attr"`
-	AwayTeamRuns int     `xml:"away_team_runs,attr"`
-	Pitches      []Pitch `xml:"pitch"`
+	AtBatSummary
+	Pitches []Pitch `xml:"pitch"`
 }
 
 // Pitch represents the PitchF/X data for a single pitch.
